@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1216490099
+              "duration": 801566600
             }
           },
           {
@@ -23,11 +23,11 @@
             "line": 6,
             "name": "I am on the demo webshop login page",
             "match": {
-              "location": "src\\test\\web\\steps\\shoppingSteps.ts:11"
+              "location": "src\\test\\web\\steps\\shoppingSteps.ts:21"
             },
             "result": {
               "status": "passed",
-              "duration": 3828342199
+              "duration": 2925795900
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 7,
             "name": "I click on Login button",
             "match": {
-              "location": "src\\test\\web\\steps\\shoppingSteps.ts:73"
+              "location": "src\\test\\web\\steps\\shoppingSteps.ts:36"
             },
             "result": {
               "status": "passed",
-              "duration": 5594212400
+              "duration": 6042509799
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 8,
             "name": "I login with valid credentials",
             "match": {
-              "location": "src\\test\\web\\steps\\shoppingSteps.ts:22"
+              "location": "src\\test\\web\\steps\\shoppingSteps.ts:41"
             },
             "result": {
               "status": "passed",
-              "duration": 1422458999
+              "duration": 1005363600
             }
           },
           {
@@ -62,11 +62,11 @@
             "line": 9,
             "name": "I select computers menu",
             "match": {
-              "location": "src\\test\\web\\steps\\shoppingSteps.ts:81"
+              "location": "src\\test\\web\\steps\\shoppingSteps.ts:55"
             },
             "result": {
               "status": "passed",
-              "duration": 541832899
+              "duration": 579394500
             }
           },
           {
@@ -75,19 +75,167 @@
             "line": 10,
             "name": "I click on desktop category",
             "match": {
-              "location": "src\\test\\web\\steps\\shoppingSteps.ts:77"
+              "location": "src\\test\\web\\steps\\shoppingSteps.ts:60"
             },
             "result": {
               "status": "passed",
-              "duration": 591933399
+              "duration": 625379999
             }
           },
           {
-            "keyword": "After",
-            "hidden": true,
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should be navigated to desktop category page",
+            "match": {
+              "location": "src\\test\\web\\steps\\shoppingSteps.ts:65"
+            },
             "result": {
               "status": "passed",
-              "duration": 540535200
+              "duration": 48439099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I select the cheapest product",
+            "match": {
+              "location": "src\\test\\web\\steps\\shoppingSteps.ts:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 699571399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I click on add to cart button",
+            "match": {
+              "location": "src\\test\\web\\steps\\shoppingSteps.ts:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 530066799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "the product should be added to cart successfully",
+            "match": {
+              "location": "src\\test\\web\\steps\\shoppingSteps.ts:78"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 974428700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I accept terms and conditions and proceed to checkout",
+            "match": {
+              "location": "src\\test\\web\\steps\\shoppingSteps.ts:88"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1814942699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I should be navigated to checkout page",
+            "match": {
+              "location": "src\\test\\web\\steps\\shoppingSteps.ts:93"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30385300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I fill in the billing details and continue to shipping method",
+            "match": {
+              "location": "src\\test\\web\\steps\\shoppingSteps.ts:103"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 292697899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I should be navigated to shipping method page",
+            "match": {
+              "location": "src\\test\\web\\steps\\shoppingSteps.ts:123"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 417391400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I select the default shipping method and continue to payment method",
+            "match": {
+              "location": "src\\test\\web\\steps\\shoppingSteps.ts:132"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 997830900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I should be navigated to payment method page",
+            "match": {
+              "location": "src\\test\\web\\steps\\shoppingSteps.ts:140"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 385183199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I verify cod payment method and confirm the order",
+            "match": {
+              "location": "src\\test\\web\\steps\\shoppingSteps.ts:152"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1997942200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "I should capture the order number",
+            "match": {
+              "location": "src\\test\\web\\steps\\shoppingSteps.ts:170"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13125100
             }
           }
         ],
