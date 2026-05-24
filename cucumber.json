@@ -15,8 +15,8 @@
       "snippetInterface": "async-await"
     },
     "format": [
-      "json:test-results/web/cucumber-report.json",
-      "html:test-results/web/cucumber-report.html"
+      "json:test-results/cucumber-report.json",
+      "html:test-results/cucumber-report.html"
     ]
   }
 }
