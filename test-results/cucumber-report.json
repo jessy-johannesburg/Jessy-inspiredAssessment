@@ -4,177 +4,112 @@
     "elements": [
       {
         "description": "",
-        "id": "user-api-validation;retrieve-user-data-and-extract-details",
+        "id": "shopping-cart---buy-own-cheap-computer;purchase-a-desktop-computer-with-cod-payment",
         "keyword": "Scenario",
-        "line": 4,
-        "name": "Retrieve user data and extract details",
+        "line": 5,
+        "name": "Purchase a desktop computer with cod payment",
         "steps": [
           {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "I retrieve user details for user id 2",
-            "match": {
-              "location": "src\\test\\api\\steps\\userDetailsSteps.ts:12"
-            },
+            "keyword": "Before",
+            "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 946850100
+              "duration": 1216490099
             }
           },
           {
             "arguments": [],
-            "keyword": "Then ",
+            "keyword": "Given ",
             "line": 6,
-            "name": "the response status should be 200",
+            "name": "I am on the demo webshop login page",
             "match": {
-              "location": "src\\test\\api\\steps\\userDetailsSteps.ts:24"
+              "location": "src\\test\\web\\steps\\shoppingSteps.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 9712599
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "I should extract the first name from the response",
-            "match": {
-              "location": "src\\test\\api\\steps\\userDetailsSteps.ts:29"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 7030799
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "I should extract the support URL from the response",
-            "match": {
-              "location": "src\\test\\api\\steps\\userDetailsSteps.ts:37"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 4817000
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@userApi",
-            "line": 1
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "user-api-validation;update-email-and-delete-last-name",
-        "keyword": "Scenario",
-        "line": 11,
-        "name": "Update email and delete last name",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 12,
-            "name": "I update user email for user id 2",
-            "match": {
-              "location": "src\\test\\api\\steps\\userDetailsSteps.ts:48"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 313994300
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 13,
-            "name": "the update response status should be 200",
-            "match": {
-              "location": "src\\test\\api\\steps\\userDetailsSteps.ts:65"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 789900
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 14,
-            "name": "the email should be updated successfully",
-            "match": {
-              "location": "src\\test\\api\\steps\\userDetailsSteps.ts:70"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 938000
+              "duration": 3828342199
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 15,
-            "name": "I delete the last name for user id 2",
+            "line": 7,
+            "name": "I click on Login button",
             "match": {
-              "location": "src\\test\\api\\steps\\userDetailsSteps.ts:81"
+              "location": "src\\test\\web\\steps\\shoppingSteps.ts:73"
             },
             "result": {
               "status": "passed",
-              "duration": 869374199
+              "duration": 5594212400
             }
           },
           {
             "arguments": [],
-            "keyword": "Then ",
-            "line": 16,
-            "name": "the delete response status should be 200",
+            "keyword": "When ",
+            "line": 8,
+            "name": "I login with valid credentials",
             "match": {
-              "location": "src\\test\\api\\steps\\userDetailsSteps.ts:98"
+              "location": "src\\test\\web\\steps\\shoppingSteps.ts:22"
             },
             "result": {
               "status": "passed",
-              "duration": 1765099
+              "duration": 1422458999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I select computers menu",
+            "match": {
+              "location": "src\\test\\web\\steps\\shoppingSteps.ts:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 541832899
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 17,
-            "name": "the last name should be null",
+            "line": 10,
+            "name": "I click on desktop category",
             "match": {
-              "location": "src\\test\\api\\steps\\userDetailsSteps.ts:103"
+              "location": "src\\test\\web\\steps\\shoppingSteps.ts:77"
             },
             "result": {
               "status": "passed",
-              "duration": 2441199
+              "duration": 591933399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 540535200
             }
           }
         ],
         "tags": [
           {
-            "name": "@userApi",
+            "name": "@buyCheapComputer",
             "line": 1
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "user-api-validation",
+    "id": "shopping-cart---buy-own-cheap-computer",
     "line": 2,
     "keyword": "Feature",
-    "name": "User API Validation",
+    "name": "Shopping cart - buy own cheap computer",
     "tags": [
       {
-        "name": "@userApi",
+        "name": "@buyCheapComputer",
         "line": 1
       }
     ],
-    "uri": "src\\test\\api\\features\\userDetails.feature"
+    "uri": "src\\test\\web\\features\\shopping.feature"
   }
 ]
