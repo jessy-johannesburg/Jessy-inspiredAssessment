@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 801566600
+              "duration": 2328179700
             }
           },
           {
@@ -23,11 +23,11 @@
             "line": 6,
             "name": "I am on the demo webshop login page",
             "match": {
-              "location": "src\\test\\web\\steps\\shoppingSteps.ts:21"
+              "location": "src\\test\\web\\steps\\shoppingSteps.ts:20"
             },
             "result": {
               "status": "passed",
-              "duration": 2925795900
+              "duration": 7850129500
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 7,
             "name": "I click on Login button",
             "match": {
-              "location": "src\\test\\web\\steps\\shoppingSteps.ts:36"
+              "location": "src\\test\\web\\steps\\shoppingSteps.ts:35"
             },
             "result": {
               "status": "passed",
-              "duration": 6042509799
+              "duration": 5471658500
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 8,
             "name": "I login with valid credentials",
             "match": {
-              "location": "src\\test\\web\\steps\\shoppingSteps.ts:41"
+              "location": "src\\test\\web\\steps\\shoppingSteps.ts:40"
             },
             "result": {
               "status": "passed",
-              "duration": 1005363600
+              "duration": 1814779299
             }
           },
           {
@@ -62,11 +62,11 @@
             "line": 9,
             "name": "I select computers menu",
             "match": {
-              "location": "src\\test\\web\\steps\\shoppingSteps.ts:55"
+              "location": "src\\test\\web\\steps\\shoppingSteps.ts:54"
             },
             "result": {
               "status": "passed",
-              "duration": 579394500
+              "duration": 506697400
             }
           },
           {
@@ -75,11 +75,11 @@
             "line": 10,
             "name": "I click on desktop category",
             "match": {
-              "location": "src\\test\\web\\steps\\shoppingSteps.ts:60"
+              "location": "src\\test\\web\\steps\\shoppingSteps.ts:59"
             },
             "result": {
               "status": "passed",
-              "duration": 625379999
+              "duration": 537338799
             }
           },
           {
@@ -88,11 +88,11 @@
             "line": 11,
             "name": "I should be navigated to desktop category page",
             "match": {
-              "location": "src\\test\\web\\steps\\shoppingSteps.ts:65"
+              "location": "src\\test\\web\\steps\\shoppingSteps.ts:64"
             },
             "result": {
               "status": "passed",
-              "duration": 48439099
+              "duration": 60523099
             }
           },
           {
@@ -101,11 +101,11 @@
             "line": 12,
             "name": "I select the cheapest product",
             "match": {
-              "location": "src\\test\\web\\steps\\shoppingSteps.ts:70"
+              "location": "src\\test\\web\\steps\\shoppingSteps.ts:69"
             },
             "result": {
               "status": "passed",
-              "duration": 699571399
+              "duration": 589561099
             }
           },
           {
@@ -114,11 +114,11 @@
             "line": 13,
             "name": "I click on add to cart button",
             "match": {
-              "location": "src\\test\\web\\steps\\shoppingSteps.ts:74"
+              "location": "src\\test\\web\\steps\\shoppingSteps.ts:73"
             },
             "result": {
               "status": "passed",
-              "duration": 530066799
+              "duration": 319164300
             }
           },
           {
@@ -127,11 +127,11 @@
             "line": 14,
             "name": "the product should be added to cart successfully",
             "match": {
-              "location": "src\\test\\web\\steps\\shoppingSteps.ts:78"
+              "location": "src\\test\\web\\steps\\shoppingSteps.ts:77"
             },
             "result": {
               "status": "passed",
-              "duration": 974428700
+              "duration": 907895400
             }
           },
           {
@@ -140,11 +140,11 @@
             "line": 15,
             "name": "I accept terms and conditions and proceed to checkout",
             "match": {
-              "location": "src\\test\\web\\steps\\shoppingSteps.ts:88"
+              "location": "src\\test\\web\\steps\\shoppingSteps.ts:87"
             },
             "result": {
               "status": "passed",
-              "duration": 1814942699
+              "duration": 1827565399
             }
           },
           {
@@ -153,11 +153,11 @@
             "line": 16,
             "name": "I should be navigated to checkout page",
             "match": {
-              "location": "src\\test\\web\\steps\\shoppingSteps.ts:93"
+              "location": "src\\test\\web\\steps\\shoppingSteps.ts:92"
             },
             "result": {
               "status": "passed",
-              "duration": 30385300
+              "duration": 21971900
             }
           },
           {
@@ -166,11 +166,11 @@
             "line": 17,
             "name": "I fill in the billing details and continue to shipping method",
             "match": {
-              "location": "src\\test\\web\\steps\\shoppingSteps.ts:103"
+              "location": "src\\test\\web\\steps\\shoppingSteps.ts:102"
             },
             "result": {
               "status": "passed",
-              "duration": 292697899
+              "duration": 903640600
             }
           },
           {
@@ -179,11 +179,11 @@
             "line": 18,
             "name": "I should be navigated to shipping method page",
             "match": {
-              "location": "src\\test\\web\\steps\\shoppingSteps.ts:123"
+              "location": "src\\test\\web\\steps\\shoppingSteps.ts:122"
             },
             "result": {
               "status": "passed",
-              "duration": 417391400
+              "duration": 401617099
             }
           },
           {
@@ -192,11 +192,11 @@
             "line": 19,
             "name": "I select the default shipping method and continue to payment method",
             "match": {
-              "location": "src\\test\\web\\steps\\shoppingSteps.ts:132"
+              "location": "src\\test\\web\\steps\\shoppingSteps.ts:131"
             },
             "result": {
               "status": "passed",
-              "duration": 997830900
+              "duration": 417044700
             }
           },
           {
@@ -205,11 +205,11 @@
             "line": 20,
             "name": "I should be navigated to payment method page",
             "match": {
-              "location": "src\\test\\web\\steps\\shoppingSteps.ts:140"
+              "location": "src\\test\\web\\steps\\shoppingSteps.ts:139"
             },
             "result": {
               "status": "passed",
-              "duration": 385183199
+              "duration": 359638200
             }
           },
           {
@@ -218,11 +218,11 @@
             "line": 21,
             "name": "I verify cod payment method and confirm the order",
             "match": {
-              "location": "src\\test\\web\\steps\\shoppingSteps.ts:152"
+              "location": "src\\test\\web\\steps\\shoppingSteps.ts:151"
             },
             "result": {
               "status": "passed",
-              "duration": 1997942200
+              "duration": 1999635200
             }
           },
           {
@@ -231,11 +231,19 @@
             "line": 22,
             "name": "I should capture the order number",
             "match": {
-              "location": "src\\test\\web\\steps\\shoppingSteps.ts:170"
+              "location": "src\\test\\web\\steps\\shoppingSteps.ts:169"
             },
             "result": {
               "status": "passed",
-              "duration": 13125100
+              "duration": 10098999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1029570800
             }
           }
         ],

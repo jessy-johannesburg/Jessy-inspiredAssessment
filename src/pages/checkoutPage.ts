@@ -11,7 +11,7 @@ export class CheckoutPage {
     private phoneTxt = '#BillingNewAddress_PhoneNumber';
 
     private billingContinueBtn =
-        "xpath=//div[@id='billing-buttons-container']";
+        "#billing-buttons-container input.button-1";
 
     private shippingAddressContinueBtn =
         "xpath=(//input[@class='button-1 new-address-next-step-button'])[2]";
@@ -90,9 +90,9 @@ export class CheckoutPage {
 
    async clickBillingContinue() {
 
-    await this.page.locator(
-        '#billing-buttons-container input.button-1'
-    ).click();
+    await this.page.click(
+        this.billingContinueBtn
+    );  
 }
 
     // =========================
