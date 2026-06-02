@@ -21,5 +21,6 @@ Scenario: Purchase a desktop computer with cod payment
  When I verify cod payment method and confirm the order 
  Then I should capture the order number 
 
+                                                                                      
 
 
