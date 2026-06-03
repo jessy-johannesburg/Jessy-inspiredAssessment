@@ -17,13 +17,6 @@ test('Fetch iPhone 17 Pro 256GB price from Amazon', async ({ page }) => {
     const product = page.locator('//div[contains(@data-component-type,"s-search-result")]')
         .filter({ hasText: 'iPhone 17 Pro' });
 
-    // await expect(product).toBeVisible();
-
-    // // Get price relative to product
-    // const price = await product.locator('.a-price-whole').first().textContent();
-
-    // console.log(`Price: ${price}`);
-
    try{
         const Product = product.nth(4);
         const price = await Product.locator('.a-price-whole').first().textContent();
