@@ -1,7 +1,6 @@
 @buyCheapComputer
 Feature: Shopping cart - buy own cheap computer
 
-
 Scenario: Purchase a desktop computer with cod payment
  Given I am on the demo webshop login page
  When I click on Login button
