@@ -4,6 +4,7 @@ import { HomePage } from '../../../pages/homePage';
 import { LoginPage } from '../../../pages/loginPage';
 import { ProdPage } from '../../../pages/prodPage';
 import { CheckoutPage } from '../../../pages/checkoutPage';
+import {ENV} from '../../../config/env';
 
 let homePage: HomePage;
 let loginPage: LoginPage;
@@ -24,7 +25,7 @@ Given('I am on the demo webshop login page', async function () {
     prodPage = new ProdPage(this.page);
     checkoutPage = new CheckoutPage(this.page);
 
-    await this.page.goto('https://demowebshop.tricentis.com/');
+    await this.page.goto(ENV.DEMO_WEBSHOP_BASE_URL);
 });
 
 

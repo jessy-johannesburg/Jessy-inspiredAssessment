@@ -4,7 +4,8 @@
   "scripts": {
     "test": "cucumber-js --profile default",
     "cucumber_test": "cucumber-js --config=cucumber.json",
-    "web_cucumber_test": "cucumber-js --config=cucumber.json --tags \"@BBCFeature\""
+    "web_cucumber_test": "cucumber-js --config=cucumber.json --tags \"@BBCFeature\"",
+    "parallel_test": "cucumber-js --parallel 3"
   },
   "dependencies": {
     "@cucumber/cucumber": "^9.6.0",
@@ -17,5 +18,6 @@
   },
   "script": {
     "test": "playwright test"
+    
   }
 }
