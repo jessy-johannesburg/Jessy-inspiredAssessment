@@ -4,7 +4,7 @@
       "src/test/api/apitestspec/*.ts",
       "src/test/web/steps/*.ts",
       "src/test/api/steps/*.ts",
-      "src/test/web/hooks/*.ts"
+      "src/test/web/fixtures/*.ts"
     ],
     "requireModule": ["ts-node/register"],
     "paths": [

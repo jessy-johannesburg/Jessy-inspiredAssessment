@@ -4,106 +4,6 @@
     "elements": [
       {
         "description": "",
-        "id": "sauce-demo-login-successfully;verify-successful-login",
-        "keyword": "Scenario",
-        "line": 5,
-        "name": "Verify successful login",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 1087146700
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 6,
-            "name": "I am on Sauce Demo Login page",
-            "match": {
-              "location": "src\\test\\web\\steps\\sauceDemoSteps.ts:8"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1276838699
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 7,
-            "name": "I enter username and password",
-            "match": {
-              "location": "src\\test\\web\\steps\\sauceDemoSteps.ts:13"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 157766800
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 8,
-            "name": "I click on Login btn",
-            "match": {
-              "location": "src\\test\\web\\steps\\sauceDemoSteps.ts:17"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3142701799
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 9,
-            "name": "I should be navigating to homePage",
-            "match": {
-              "location": "src\\test\\web\\steps\\sauceDemoSteps.ts:22"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 24663699
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 804720299
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@sauceDemo",
-            "line": 1
-          }
-        ],
-        "type": "scenario"
-      }
-    ],
-    "id": "sauce-demo-login-successfully",
-    "line": 2,
-    "keyword": "Feature",
-    "name": "sauce Demo Login successfully",
-    "tags": [
-      {
-        "name": "@sauceDemo",
-        "line": 1
-      }
-    ],
-    "uri": "src\\test\\web\\features\\sauceDemo.feature"
-  },
-  {
-    "description": "",
-    "elements": [
-      {
-        "description": "",
         "id": "shopping-cart---buy-own-cheap-computer;purchase-a-desktop-computer-with-cod-payment",
         "keyword": "Scenario",
         "line": 4,
@@ -114,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 636826399
+              "duration": 1048053299
             }
           },
           {
@@ -127,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3088855300
+              "duration": 3059077299
             }
           },
           {
@@ -140,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5565606799
+              "duration": 5512632200
             }
           },
           {
@@ -153,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3063571799
+              "duration": 791714800
             }
           },
           {
@@ -166,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 894649699
+              "duration": 543534100
             }
           },
           {
@@ -179,7 +79,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 707068900
+              "duration": 499634500
             }
           },
           {
@@ -192,7 +92,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 29675599
+              "duration": 46407799
             }
           },
           {
@@ -205,7 +105,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1717179500
+              "duration": 898065099
             }
           },
           {
@@ -218,7 +118,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 543219800
+              "duration": 295297899
             }
           },
           {
@@ -231,7 +131,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 928609599
+              "duration": 395788700
             }
           },
           {
@@ -244,7 +144,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1872357699
+              "duration": 1651185800
             }
           },
           {
@@ -257,7 +157,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 51718700
+              "duration": 22488900
             }
           },
           {
@@ -270,7 +170,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 299464700
+              "duration": 253237099
             }
           },
           {
@@ -283,7 +183,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 979437399
+              "duration": 392157400
             }
           },
           {
@@ -296,7 +196,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 329597799
+              "duration": 314534400
             }
           },
           {
@@ -309,7 +209,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 387414499
+              "duration": 388330299
             }
           },
           {
@@ -322,7 +222,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2816395100
+              "duration": 1878089199
             }
           },
           {
@@ -335,7 +235,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5728300
+              "duration": 9272000
             }
           },
           {
@@ -343,7 +243,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 455150399
+              "duration": 661036000
             }
           }
         ],
@@ -367,215 +267,5 @@
       }
     ],
     "uri": "src\\test\\web\\features\\shopping.feature"
-  },
-  {
-    "description": "",
-    "elements": [
-      {
-        "description": "",
-        "id": "user-api-validation;retrieve-user-data-and-extract-details",
-        "keyword": "Scenario",
-        "line": 4,
-        "name": "Retrieve user data and extract details",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 619904500
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "I retrieve user details for user id 2",
-            "match": {
-              "location": "src\\test\\api\\steps\\userDetailsSteps.ts:12"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 621954799
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 6,
-            "name": "the response status should be 200",
-            "match": {
-              "location": "src\\test\\api\\steps\\userDetailsSteps.ts:24"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 880499
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "I should extract the first name from the response",
-            "match": {
-              "location": "src\\test\\api\\steps\\userDetailsSteps.ts:29"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1017600
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "I should extract the support URL from the response",
-            "match": {
-              "location": "src\\test\\api\\steps\\userDetailsSteps.ts:37"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 607599
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 274314800
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@userApi",
-            "line": 1
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "user-api-validation;update-email-and-delete-last-name",
-        "keyword": "Scenario",
-        "line": 11,
-        "name": "Update email and delete last name",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 714683100
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 12,
-            "name": "I update user email for user id 2",
-            "match": {
-              "location": "src\\test\\api\\steps\\userDetailsSteps.ts:48"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 218223799
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 13,
-            "name": "the update response status should be 200",
-            "match": {
-              "location": "src\\test\\api\\steps\\userDetailsSteps.ts:65"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 845900
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 14,
-            "name": "the email should be updated successfully",
-            "match": {
-              "location": "src\\test\\api\\steps\\userDetailsSteps.ts:70"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1553499
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 15,
-            "name": "I delete the last name for user id 2",
-            "match": {
-              "location": "src\\test\\api\\steps\\userDetailsSteps.ts:81"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 421724800
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 16,
-            "name": "the delete response status should be 200",
-            "match": {
-              "location": "src\\test\\api\\steps\\userDetailsSteps.ts:98"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1359799
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 17,
-            "name": "the last name should be null",
-            "match": {
-              "location": "src\\test\\api\\steps\\userDetailsSteps.ts:103"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1555000
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 328816900
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@userApi",
-            "line": 1
-          }
-        ],
-        "type": "scenario"
-      }
-    ],
-    "id": "user-api-validation",
-    "line": 2,
-    "keyword": "Feature",
-    "name": "User API Validation",
-    "tags": [
-      {
-        "name": "@userApi",
-        "line": 1
-      }
-    ],
-    "uri": "src\\test\\api\\features\\userDetails.feature"
   }
 ]
